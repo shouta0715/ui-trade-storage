@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "dev": "wrangler dev src/index.ts",
+    "dev": "wrangler dev --port 8080 src/index.ts",
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
-    "hono": "^4.0.7"
+    "hono": "^4.0.7",
+    "wasm-image-optimization": "^1.0.1"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240208.0",
