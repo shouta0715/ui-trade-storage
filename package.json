@@ -4,6 +4,7 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "hono": "^4.0.7",
     "wasm-image-optimization": "^1.0.1"
   },
